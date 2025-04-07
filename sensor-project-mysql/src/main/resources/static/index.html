@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Building Monitoring System</h1>
+    <button onclick="createCustomer()">Add Customer</button>
+	<button onclick="createLocation()">Add Location</button>
+	<button onclick="createRoom()">Add Room</button>
+
+	<button onclick="fetchReadings()">Load Chart</button>
+	<canvas id="readingsChart" width="400" height="200"></canvas>
+
+	
+    <p id="output"></p>
+    
+    <script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
